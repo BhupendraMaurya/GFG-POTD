@@ -1,6 +1,6 @@
 //  https://www.geeksforgeeks.org/problems/padovan-sequence2855/1
 
-// This problem is same as fibonacci series and can be solved using recursion, both dp ways and space optmization
+// This problem is same as fibonacci series and can be solved using recursion, both dp ways(memoization and tabulation) and space optmization
 class PadovanSequence
 {
     
