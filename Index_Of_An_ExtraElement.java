@@ -8,7 +8,8 @@ public class Index_Of_An_ExtraElement {
 
 
     //TC : O(n);
-    public int findExtra2(int n, int arr1[], int arr2[]) {
+    public int findExtra2(int n, int arr1[], int arr2[]) { 
+        // simply checking that which number is not equal, 
         for(int i=0;i<arr2.length;i++){
             if(arr1[i] != arr2[i]){
                 return i;
