@@ -1,3 +1,5 @@
+// ❌Count numbers containing 4:  https://www.geeksforgeeks.org/problems/count-numbers-containing-43022/1 ❌
+
 public class Count_Numbers_Containing_4 {
 
     //❌ First Approach : TC : O(nlogn), as converting any number from integer to string takes O(log n) and ❌
