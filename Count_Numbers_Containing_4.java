@@ -24,7 +24,7 @@ public class Count_Numbers_Containing_4 {
     }
 
 
-    private static boolean contains(int n){
+    private static boolean contains_4(int n){
         // if number is less than 3, then cant have 4.
         if(n<=3){
             return false;
@@ -57,7 +57,7 @@ public class Count_Numbers_Containing_4 {
         // check that the current element having 4 or not,
         
         for(int i=1;i<=n;i++){
-            if(contains(i)){
+            if(contains_4(i)){
                 ans++;
             }
         }
